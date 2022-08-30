@@ -2,6 +2,10 @@
     border-bottom: none;
 }
 
+.nav-link.active {
+    border-bottom-left-radius: 25px;
+}
+
 #navbar {
     background-color: grey;
     border-top-right-radius: 25px;
