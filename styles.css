@@ -1,0 +1,24 @@
+.nav-tabs {
+    border-bottom: none;
+}
+
+#navbar {
+    background-color: grey;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 20px;
+}
+
+#land_top
+{
+    background-color: red;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 2px 15px;
+}
+
+#ep_cards {
+    text-decoration: none;
+    color: black;
+}
