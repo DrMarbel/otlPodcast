@@ -18,7 +18,7 @@
     box-shadow: 2px 15px;
 }
 
-#ep_cards {
+#ep_cards a {
     text-decoration: none;
     color: black;
 }
