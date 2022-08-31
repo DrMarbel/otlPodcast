@@ -67,3 +67,7 @@ color: black;
 #curr_ep_play, #player {
     margin: 20px 0px 20px 0px;
 }
+
+#land_desc {
+    text-align: center;
+}
