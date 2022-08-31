@@ -31,7 +31,7 @@
                           </ul>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
+                          <a class="nav-link" data-bs-target="#offcanvasExample" data-bs-toggle="offcanvas" aria-controls="offcanvasExample">Episode Player</a>
                         </li>
                       </ul>
                 </div>
@@ -50,8 +50,19 @@
             </div>
 
             <div id="curr_ep_play">
-              <h2 id="player">Wanna Listen to the Latest Episode?</h2>
-              <iframe src="https://anchor.fm/on-the-lecturn-podcast/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Player</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    <h2 id="player">Wanna Listen to the Latest Episode?</h2>
+
+                    <iframe id="media" src="https://anchor.fm/on-the-lecturn-podcast/embed" height="102px" width="350px" frameborder="0" scrolling="no"></iframe>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <footer id="land_bot">The Embassy&trade; and On The Lectern both belong to Martin Belt | 2022&copy;</footer>
