@@ -82,6 +82,15 @@ color: black;
     margin-bottom: 30px;
 }
 
+#the_doc {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#drMarb {
+    border-radius: 25px;
+}
+
 html, body {
     background-color: black;
 }
