@@ -105,11 +105,16 @@ html, body {
     #image {
         max-width: 55px;
         margin-top: 5px;
-        margin-left: 10px;
+        margin-left: 1px;
     }
 
     #transpImg {
         max-width: 300px;
+    }
+
+    span.start-100 {
+        left: 68%!important;
+        top: 77%!important;
     }
 }
 
@@ -124,6 +129,11 @@ html, body {
     #transpImg {
         max-width: 300px;
     }
+
+    span.start-100 {
+        left: 66%!important;
+        top: 74.8%!important;
+    }
 }
 
 @media only screen and (min-width: 428px) and (max-width: 600px)
@@ -136,5 +146,10 @@ html, body {
 
     #transpImg {
         max-width: 300px;
+    }
+
+    span.start-100 {
+        left: 65%!important;
+        top: 72%!important;
     }
 }
