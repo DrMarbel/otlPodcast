@@ -16,7 +16,7 @@ color: black;
 }
 
 .nav-link:hover, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color: purple;
+    background-color: #8c52ff;
     color: white;
 }
 
@@ -33,7 +33,7 @@ color: black;
 
 #land_top
 {
-    background-color: purple;
+    background-color: #8c52ff;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     /* box-shadow: 2px 15px; */
@@ -45,12 +45,17 @@ color: black;
 }
 
 #land_bot {
-    background-color: purple;
+    background-color: #8c52ff;
     color: white;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     text-align: center;
     margin-top: 15px;
+}
+
+#transpImg {
+    max-width: 600px;
+    margin-top: 25px;
 }
 
 #title {
@@ -72,12 +77,12 @@ color: black;
 
 #land_desc {
     text-align: center;
-    background-color: purple;
+    background-color: #8c52ff;
     border-radius: 50px;
 }
 
 #img_hold {
-    background-color: purple;
+    background-color: #8c52ff;
     border-radius: 50px;
     margin-bottom: 30px;
 }
@@ -89,7 +94,7 @@ color: black;
 
 span.start-100 {
     left: 54%!important;
-    top: 85.8%!important;
+    top: 73.5%!important;
 }
 
 #drMarb {
